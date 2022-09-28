@@ -1,4 +1,9 @@
 <?php
+/**
+ * Created by Belous Alex.
+ * Description: Crud in file
+ * Date: 27/09/22
+ */
 session_start();
 $sessionData = !empty($_SESSION['sessionData']) ? $_SESSION['sessionData'] : '';
 spl_autoload_register();
